@@ -1,7 +1,7 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vitest'
 
 describe('project setup', () => {
   it('vitest is configured correctly', () => {
-    expect(true).toBe(true);
-  });
-});
+    expect(true).toBe(true)
+  })
+})

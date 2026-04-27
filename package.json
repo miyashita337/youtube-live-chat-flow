@@ -51,6 +51,7 @@
     "package": "npm run build && mkdir -p dist && zip -r dist/archive.zip app",
     "prepare": "husky install",
     "test": "npm run lint",
+    "test:unit": "vitest run --coverage",
     "watch:dist": "mv3-hot-reload",
     "watch:src": "webpack -w --config webpack.config.dev.js"
   }
